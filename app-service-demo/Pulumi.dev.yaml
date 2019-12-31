@@ -1,0 +1,8 @@
+config:
+  app-service-demo:deploymentName: <<deploymentName>>
+  app-service-demo:image: nginx
+  app-service-demo:planTier: Standard
+  app-service-demo:planSku: S1
+  azure:environment: public
+  azure:location: eastus2
+  azure:subscriptionId: <<subscriptionId>>
